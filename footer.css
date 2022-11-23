@@ -5,9 +5,16 @@
 
 :root {
 	--second-header-bg: rgb(73, 11, 60);
+
 	--main-border: #ffffff;
+	--main-border-shadow: #5e1758;
     --border-radius: 0.2rem;
+
 	--main-text: #ffffff;
+	--second-text: rgb(218, 212, 212);
+    
+	--main-search-opt: #630505;
+	--second-search-opt: #f3f3f3;
 }
 
 body {
@@ -145,10 +152,6 @@ p {
 	text-align: center;
 	display: inline-block;
 	max-width: 800px;
-}
-
-footer p {
-	font-size: 20px;
 }
 
 .trailer1 {
@@ -350,17 +353,8 @@ nav ul li a {
 	color: var(--main-text);
 }
 
-footer {
-	background-color: var(--second-header-bg);
-	padding: 45px 0px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 40px;
-}
-
 #github {
-	width: 50px;
+	width: 30px;
 }
 
 #github:hover {
@@ -370,4 +364,13 @@ footer {
 .desenvolvimento {
 	font-size: 24px;
 	margin-top: 50px;
+}
+
+footer {
+	background-color: var(--second-header-bg);
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }

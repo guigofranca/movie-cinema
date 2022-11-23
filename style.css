@@ -25,7 +25,6 @@ nav ul li a {
 }
 
 .linha {
-   
     display: grid;
     grid-template-columns: repeat(5, minmax(40px, 200px));
     justify-content: center;
@@ -228,18 +227,10 @@ h3 {
 }
 
 :root {
-	/*--main-header-bg: #232f3e; */
 	--second-header-bg: rgb(73, 11, 60);
-
 	--main-border: #ffffff;
-	--main-border-shadow: #5e1758;
     --border-radius: 0.2rem;
-
 	--main-text: #ffffff;
-	--second-text: rgb(218, 212, 212);
-    
-	--main-search-opt: #630505;
-	--second-search-opt: #f3f3f3;
 }
 
 a {
@@ -284,7 +275,6 @@ a {
 	border-radius: var(--border-radius);
 	margin: 0;
 	color: var(--main-text);
-	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
 }
 
 #nav-belt > .nav-fill {
@@ -314,13 +304,11 @@ a {
 	box-sizing: border-box;
 	border: 0.2rem solid var(--main-border);
 	margin: 0 -0.2rem 0 -0.2rem;
-	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
 }
 
 #nav-search-bar-form .nav-left {
 	box-sizing: border-box;
 	display: flex;
-	background: var(--second-search-opt);
 	align-items: center;
 }
 
@@ -339,7 +327,6 @@ a {
 	display: flex;
 	flex: 1 1 auto;
 	background: white;
-	border-left: 0.1rem solid var(--main-search-opt);
 	border-right: 0.1rem solid var(--main-text);
 }
 
@@ -359,7 +346,6 @@ a {
 #nav-search-bar-form .nav-right {
 	box-sizing: border-box;
 	display: flex;
-	background: var(--main-border-shadow);
 	align-items: center;
 }
 
@@ -405,7 +391,6 @@ a {
 	border-radius: var(--border-radius);
 	margin: 0;
 	color: var(--main-text);
-	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
 }
 
 .container {
