@@ -319,6 +319,7 @@ nav ul li a {
 	padding: 0 0.5rem 0 0.5rem;
 	cursor: pointer;
     color:white;
+	background: var(--main-border-shadow);
 }
 
 #nav-search-bar-form .nav-right > button:hover {
