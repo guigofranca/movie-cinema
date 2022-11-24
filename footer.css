@@ -5,16 +5,9 @@
 
 :root {
 	--second-header-bg: rgb(73, 11, 60);
-
 	--main-border: #ffffff;
-	--main-border-shadow: #5e1758;
     --border-radius: 0.2rem;
-
 	--main-text: #ffffff;
-	--second-text: rgb(218, 212, 212);
-    
-	--main-search-opt: #630505;
-	--second-search-opt: #f3f3f3;
 }
 
 body {
@@ -314,7 +307,6 @@ nav ul li a {
 	flex: 1 1 auto;
 	align-items: center;
 	border: 0;
-	background: var(--main-border-shadow);
 	width: 100%;
 	height: 100%;
 	padding: 0 0.5rem 0 0.5rem;
@@ -367,10 +359,11 @@ nav ul li a {
 }
 
 footer {
-	background-color: var(--second-header-bg);
 	padding: 10px 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	margin-top: 730px;
+	background: var(--second-header-bg);
 }

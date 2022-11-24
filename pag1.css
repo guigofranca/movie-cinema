@@ -131,6 +131,8 @@ h1 {
 
 h3 {
     color: white;
+	font-size: 25px;
+	margin-bottom: 15px;
 }
 
 h5 {
@@ -140,21 +142,21 @@ h5 {
 
 p {
     color: white;
-    font-size: 15px;
-    line-height: 17px;
+    font-size: 20px;
+    line-height: 19px;
 	text-align: center;
 	display: inline-block;
 	max-width: 800px;
-}
-
-footer p {
-	font-size: 20px;
 }
 
 .trailer1 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+
+.video1 {
+	margin-top: 30px;
 }
 
 .catalogo {
@@ -167,6 +169,7 @@ footer p {
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
+	margin-bottom: 30px;
 }
 
 .catalogo:hover {
@@ -311,7 +314,6 @@ nav ul li a {
 	flex: 1 1 auto;
 	align-items: center;
 	border: 0;
-	background: var(--main-border-shadow);
 	width: 100%;
 	height: 100%;
 	padding: 0 0.5rem 0 0.5rem;
@@ -351,13 +353,19 @@ nav ul li a {
 }
 
 footer {
-	background-color: var(--second-header-bg);
-	padding: 45px 0px;
+	padding: 10px 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 40px;
+	margin-top: 100px;
+	background: var(--second-header-bg);
 }
+
+footer p {
+	font-size: 20px;
+}
+
 
 #github {
 	width: 50px;

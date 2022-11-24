@@ -405,6 +405,10 @@ footer {
 	align-items: center;
 }
 
+footer p {
+	font-size: 15px;
+}
+
 #github {
 	width: 30px;
 }
